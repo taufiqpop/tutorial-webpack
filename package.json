@@ -4,7 +4,7 @@
   "description": "Belajar Tentang WebPack",
   "private": true,
   "scripts": {
-    "build": "webpack -o ./output --output-filename bundle.js"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
