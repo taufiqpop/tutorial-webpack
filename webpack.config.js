@@ -1,21 +1,15 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
     entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'output'),
-        filename: 'bundle.js',
-    },
+    plugins: [new HtmlWebpackPlugin({
+        template: './src/template.html',
+    })],
     watch: true,
     devtool: false,
     module: {
         rules: [
-            // udah gak dipake
-            // {
-            //     test: /\.css$/i,
-            //     use: ['style-loader', 'css-loader'],
-            // },
             {
                 test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,
