@@ -3,10 +3,10 @@ const path = require('path');
 
 module.exports = {
     entry: './src/index.js',
-    plugins: [new HtmlWebpackPlugin({
-        template: './src/template.html',
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './src/template.html',
     })],
-    watch: true,
     devtool: false,
     module: {
         rules: [
