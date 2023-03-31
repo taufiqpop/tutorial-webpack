@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbelajar_webpack=self.webpackChunkbelajar_webpack||[]).push([[858],{540:(e,l,a)=>{a(486),console.log("Hello from hello.js")}},e=>{e(e.s=540)}]);

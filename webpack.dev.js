@@ -15,7 +15,7 @@ module.exports = merge(config, {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js',
+        filename: '[name].js',
         assetModuleFilename: 'img/[name][ext]',
         clean: true,
     },

@@ -7,7 +7,7 @@ module.exports = merge(config, {
     mode: 'production',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.[contenthash].js',
+        filename: '[name].[contenthash].js',
         assetModuleFilename: 'img/[hash][ext]',
         clean: true,
     },
