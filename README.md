@@ -1,4 +1,4 @@
-# belajar-webpack
-Belajar Tentang WebPack
+# tutorial-webpack
+Belajar Webpack
 
-Sumber : https://www.youtube.com/watch?v=YwClq14cvX0&list=PLFIM0718LjIWP4HvnehF19e1kzV-7wa3i&pp=iAQB
+## https://webpack.js.org
