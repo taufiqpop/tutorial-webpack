@@ -1,4 +1,2 @@
-# tutorial-webpack
-Belajar Webpack
-
-## https://webpack.js.org
+# Tutorial Webpack
+#### https://webpack.js.org
